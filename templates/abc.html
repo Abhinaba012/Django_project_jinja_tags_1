@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>Jinja Operational Tags</h1>
+        {% if a > 20 %}
+            <h2>The value of a is {{a}}</h2>
+        {% elif a == 25 %}
+            <h2>The value of a is {{a}}</h2>
+        {% else %}
+            <h2>The value of a is {{a}}</h2>
+        {% endif %}
+    </center>
+    {% for i in name %}
+        <h3><marquee>{{i}}</marquee></h3>
+    {% endfor %}
+
+
+</body>
+</html>
